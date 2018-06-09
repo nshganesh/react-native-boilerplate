@@ -1,40 +1,48 @@
 {
   "instructions": [
     {
-      "title": "Create React Native Project",
-      "description": "react-native init ReactReduxBoilerPlate"
+      "title": "Clone this React Native Project",
+      "description": "git clone https://github.com/nshganesh/react-native-boilerplate.git"
     },
     {
       "title": "Install Dependencies",
-      "description": "In your project root, run npm install --save react-redux \nnpm install —save redux \nnpm install —save redux-thunk"
+      "description": "type: 'yarn install'"
     },
     {
-      "title": "Create Folder Structure",
-      "description": "In your project root create an 'app' folder. In the app folder create an 'actions' folder , a 'reducers' folder and a 'components' folder."
+      "title": "Running app",
+      "description": "type: 'yarn start'. It will show you the QR code to scan once setup."
+    },
+    {
+      "title": "Scan QR code",
+      "description": "Install expo app from playstore. And scan the QR code from that app. If everything is setup properly. You should be seeing these contents in the app"
+    },
+    {
+      "title": "Folder Structure",
+      "description": "In your project root an 'app' folder exists. In the app folder 'actions', 'components', 'containers', 'store' and 'reducers' folder are structured."
     },
     {
       "title": "Create your first action",
-      "description": "The action is a basic function called from the component whenever we want the whole state of the app to be changed. Our action creator is a simple function returning an object (the action itself)with a type attribute expressing what happened with the app.\nIn your actions folder create a js file 'index.js'"
+      "description": "The action is a basic function called from the component whenever we want the whole state of the app to be changed. Action creator is a simple function returning an object (the action itself)with a type attribute expressing what happened with the app."
     },
     {
       "title": "Create your first reducer",
-      "description": "Reducers are the ones in charge of updating the state of the app. Redux will automatically pass the current state of the app and the action occurred. It’s up to the reducer to realize if it needs to modify the state or not based on the action.type.\nIn your reducers folder create a js file 'index.js'"
+      "description": "Reducers are the ones in charge of updating the state of the app. Redux will automatically pass the current state of the app and the action occurred. It’s up to the reducer to realize if it needs to modify the state or not based on the action.type."
     },
     {
       "title": "Create your component",
-      "description": "In your components folder create a js file 'home.js'"
+      "description": "In your components folder create a js file just like 'Home.js'"
     },
     {
-      "title": "Create Store",
-      "description": "In the app folder, create a js file 'store.js'"
+      "title": "Learn about Store",
+      "description": "Store basically stores the information. We have used redux-thunk middelware."
     },
     {
       "title": "Link it all together",
-      "description": "Redux needs to inject a store holding the app state into the app. To do so, it requires a ‘Provider’ wrapping the whole app.In the app folder, create a js file 'setup.js'"
+      "description": "Redux needs to inject a store holding the app state into the app. To do so, it requires a ‘Provider’ wrapping the whole app.In the app folder,"
     },
     {
-      "title": "Update your main files",
-      "description": "Update index.ios.js and index.android.js"
+      "title": "Container-Component pattern.",
+      "description": "If you are looking for navigation integrated boiler plate, use 'navigation' branch of the same codebase"
     }
   ]
 }
