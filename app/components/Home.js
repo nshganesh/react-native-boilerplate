@@ -5,76 +5,89 @@ import PropTypes from "prop-types";
 
 import {
   StyleSheet,
-  ListView,
+  FlatList,
   View,
   Text,
-  ActivityIndicator
+  ActivityIndicator,
+  TouchableOpacity
 } from "react-native";
 
 export default class Home extends Component {
+  static navigationOptions = ({ navigation }) => ({
+    title: `Users`
+  });
+
   static propTypes = {
     loading: PropTypes.bool.isRequired,
-    data: PropTypes.array.isRequired,
-    getData: PropTypes.func.isRequired
+    users: PropTypes.array.isRequired,
+    fetchUsers: PropTypes.func.isRequired,
+    navigation: PropTypes.object.isRequired
   };
 
-  constructor(props) {
-    super(props);
-
-    var ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
-    this.state = {
-      ds: ds,
-      data: props.data
-    };
-  }
-
   componentDidMount() {
-    this.props.getData();
+    this.props.fetchUsers(1, 10);
   }
 
-  componentWillReceiveProps(nextProps) {
-    const { data } = nextProps;
-    if (this.props.data !== data) {
-      this.setState({ data });
-    }
-  }
+  _onPressRow = (rowID, rowData) => {
+    const { navigation } = this.props;
+    navigation.navigate("Details", {
+      user: rowData
+    });
+  };
 
   render() {
     if (this.props.loading) {
       return (
-        <View style={styles.activityIndicatorContainer}>
-          <ActivityIndicator
-            animating={true}
-            style={[styles.indicator_height]}
-            size="small"
-          />
-        </View>
+          <View style={styles.activityIndicatorContainer}>
+            <ActivityIndicator
+                animating={true}
+                style={[styles.indicator_height]}
+                size="small"
+            />
+          </View>
       );
     } else {
       return (
-        <View style={styles.container}>
-          <ListView
-            enableEmptySections={true}
-            dataSource={this.state.ds.cloneWithRows(this.state.data)}
-            renderRow={this.renderRow.bind(this)}
-          />
-        </View>
+          <View style={styles.container}>
+            <FlatList
+                data={this.props.users}
+                keyExtractor={this._keyExtractor}
+                renderItem={this.renderRow}
+                ItemSeparatorComponent={this.renderSeparator}
+            />
+          </View>
       );
     }
   }
 
-  renderRow(rowData, sectionID, rowID) {
+  _keyExtractor = (item, index) => item.id;
+
+  renderRow = ({ item, index }) => {
     return (
-      <View style={styles.row}>
-        <Text style={styles.title}>
-          {parseInt(rowID) + 1}
-          {". "}
-          {rowData.title}
-        </Text>
-        <Text style={styles.description}>{rowData.description}</Text>
-      </View>
+        <TouchableOpacity onPress={() => this._onPressRow(index, item)}>
+          <View style={styles.row}>
+            <Text style={styles.title}>
+              {parseInt(index) + 1}
+              {". "}
+              {item.name}
+            </Text>
+            <Text style={styles.description}>
+              {item.email}
+            </Text>
+            <Text style={styles.description}>
+              {item.company.name}
+            </Text>
+            <Text style={styles.description}>
+              Contact No: {item.phone}
+            </Text>
+          </View>
+        </TouchableOpacity>
     );
-  }
+  };
+
+  renderSeparator = () => {
+    return <View style={styles.separator} />;
+  };
 }
 
 var styles = StyleSheet.create({
@@ -105,10 +118,16 @@ var styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#F5F5F5",
-    paddingTop: 20
+    paddingTop: 10
   },
 
   indicator_height: {
     height: 80
+  },
+  separator: {
+    height: 1,
+    width: "83%",
+    backgroundColor: "#CED0CE",
+    marginLeft: "17%"
   }
 });

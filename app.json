@@ -1,5 +1,15 @@
 {
   "expo": {
-    "sdkVersion": "25.0.0"
+    "sdkVersion": "25.0.0",
+    "name": "ReactNativeNavigation",
+    "icon": "./app/icons/app-icon.png",
+    "version": "1.0.0",
+    "slug": "reactnativenav",
+    "ios": {
+      "bundleIdentifier": "com.abc.name"
+    },
+    "android": {
+      "package": "com.abc.name"
+    }
   }
 }

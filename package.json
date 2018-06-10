@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeBoilerPlate",
+  "name": "ReactNativeNavigation",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -22,10 +22,13 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "eslint-plugin-react-native": "^3.2.1",
     "expo": "^25.0.0",
+    "normalizr": "^3.2.4",
     "react": "16.2.0",
     "react-native": "0.52.0",
+    "react-navigation": "^2.2.5",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
