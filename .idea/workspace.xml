@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b35fec-91ad-49c1-b8a9-84d37864eabb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/api/requests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/schema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/usersApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ItemDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/containers/AppNavigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/containers/ItemDetailsContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/reducers/addresses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/reducers/companies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/reducers/navReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/reducers/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/actions/actionTypes/appActionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/actions/actionTypes/appActionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/actions/appActionCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/actions/appActionCreator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/HomeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/HomeContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/reducers/appReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/reducers/appReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/reducers/dataReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/reducers/initialState.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,30 +20,6 @@
               <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navReducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/reducers/navReducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,15 +58,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requests.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/api/requests.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="usersApi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/api/usersApi.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -134,14 +79,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemDetails.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemDetails.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/ItemDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="378">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding>
                 <element signature="e#15#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appActionTypes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/actions/actionTypes/appActionTypes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appActionCreator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/actions/appActionCreator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="198">
+                <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -159,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/instructions.json" />
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/app/api/requests.js" />
@@ -181,6 +155,7 @@
         <option value="$PROJECT_DIR$/app/containers/HomeContainer.js" />
         <option value="$PROJECT_DIR$/app/api/schema.js" />
         <option value="$PROJECT_DIR$/app/components/ItemDetails.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -225,59 +200,6 @@
             <path>
               <item name="react-native" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-native" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-native" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name=".expo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-native" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-native" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-native" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-              <item name="actionTypes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-native" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-native" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-native" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-native" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-native" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,12 +246,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528552115283</updated>
-      <workItem from="1528552116750" duration="10801000" />
+      <workItem from="1528552116750" duration="11098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10801000" />
+    <option name="totallyTimeSpent" value="11098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
@@ -363,16 +285,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="18">
-            <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/store/appStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -418,20 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/actions/actionTypes/appActionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/actions/appActionCreator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -574,11 +472,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/ItemDetails.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="378">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding>
             <element signature="e#15#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/actions/actionTypes/appActionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/actions/appActionCreator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
